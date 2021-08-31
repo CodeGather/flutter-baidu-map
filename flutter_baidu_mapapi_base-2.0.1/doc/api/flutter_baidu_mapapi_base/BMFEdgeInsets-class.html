@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the BMFEdgeInsets class from the flutter_baidu_mapapi_base library, for the Dart programming language.">
+  <title>BMFEdgeInsets class - flutter_baidu_mapapi_base library - Dart API</title>
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../static-assets/github.css">
+  <link rel="stylesheet" href="../static-assets/styles.css">
+  <link rel="icon" href="../static-assets/favicon.png">
+
+</head>
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">flutter_baidu_mapapi_base</a></li>
+    <li><a href="../flutter_baidu_mapapi_base/flutter_baidu_mapapi_base-library.html">flutter_baidu_mapapi_base</a></li>
+    <li class="self-crumb">BMFEdgeInsets class</li>
+  </ol>
+  <div class="self-name">BMFEdgeInsets</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="../index.html">flutter_baidu_mapapi_base</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/flutter_baidu_mapapi_base-library.html">flutter_baidu_mapapi_base</a></li>
+      <li class="self-crumb">BMFEdgeInsets class</li>
+    </ol>
+    
+    <h5>flutter_baidu_mapapi_base library</h5>
+    <ol>
+      <li class="section-title"><a href="../flutter_baidu_mapapi_base/flutter_baidu_mapapi_base-library.html#classes">Classes</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFCoordinate-class.html">BMFCoordinate</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFCoordinateBounds-class.html">BMFCoordinateBounds</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFCoordinateRegion-class.html">BMFCoordinateRegion</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFCoordinateSpan-class.html">BMFCoordinateSpan</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets-class.html">BMFEdgeInsets</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFEnv-class.html">BMFEnv</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFLog-class.html">BMFLog</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFMapAPI_Base-class.html">BMFMapAPI_Base</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFMapRect-class.html">BMFMapRect</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFMapSDK-class.html">BMFMapSDK</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFModel-class.html">BMFModel</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFNativeViewType-class.html">BMFNativeViewType</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFPoint-class.html">BMFPoint</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFSize-class.html">BMFSize</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/ColorUtil-class.html">ColorUtil</a></li>
+    
+    
+    
+      <li class="section-title"><a href="../flutter_baidu_mapapi_base/flutter_baidu_mapapi_base-library.html#constants">Constants</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/kSetAPIKey-constant.html">kSetAPIKey</a></li>
+    
+    
+    
+      <li class="section-title"><a href="../flutter_baidu_mapapi_base/flutter_baidu_mapapi_base-library.html#enums">Enums</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMF_COORD_TYPE-class.html">BMF_COORD_TYPE</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFLogoPosition-class.html">BMFLogoPosition</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFMapType-class.html">BMFMapType</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFRegionChangeReason-class.html">BMFRegionChangeReason</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFSwitchIndoorFloorError-class.html">BMFSwitchIndoorFloorError</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFUserTrackingMode-class.html">BMFUserTrackingMode</a></li>
+    
+    
+    </ol>
+  </div>
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><span class="kind-class">BMFEdgeInsets</span> class  </h1></div>
+
+    <section class="desc markdown">
+      <p>边框的插入距离(正值就是往内缩.负值就是往外扩充)</p>
+    </section>
+    
+    <section>
+      <dl class="dl-horizontal">
+
+        <dt>Implemented types</dt>
+        <dd>
+          <ul class="comma-separated clazz-relationships">
+            <li><a href="../flutter_baidu_mapapi_base/BMFModel-class.html">BMFModel</a></li>
+          </ul>
+        </dd>
+
+
+
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="BMFEdgeInsets" class="callable">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/BMFEdgeInsets.html">BMFEdgeInsets</a></span><span class="signature">(<span class="parameter" id="-param-top">{<span class="type-annotation">double</span> <span class="parameter-name">top</span>, </span><span class="parameter" id="-param-left"><span class="type-annotation">double</span> <span class="parameter-name">left</span>, </span><span class="parameter" id="-param-bottom"><span class="type-annotation">double</span> <span class="parameter-name">bottom</span>, </span><span class="parameter" id="-param-right"><span class="type-annotation">double</span> <span class="parameter-name">right</span>}</span>)</span>
+        </dt>
+        <dd>
+          BMFEdgeInsets构造方法 
+        </dd>
+        <dt id="BMFEdgeInsets.fromEdgeInsets" class="callable">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/BMFEdgeInsets.fromEdgeInsets.html">BMFEdgeInsets.fromEdgeInsets</a></span><span class="signature">(<span class="parameter" id="fromEdgeInsets-param-insets"><span class="type-annotation">EdgeInsets</span> <span class="parameter-name">insets</span></span>)</span>
+        </dt>
+        <dd>
+          EdgeInsets =&gt; BMFEdgeInsets 
+        </dd>
+        <dt id="BMFEdgeInsets.fromMap" class="callable">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/BMFEdgeInsets.fromMap.html">BMFEdgeInsets.fromMap</a></span><span class="signature">(<span class="parameter" id="fromMap-param-map"><span class="type-annotation">Map</span> <span class="parameter-name">map</span></span>)</span>
+        </dt>
+        <dd>
+          map =&gt; BMFEdgeInsets 
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="bottom" class="property">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/bottom.html">bottom</a></span>
+          <span class="signature">&#8596; double</span>         
+        </dt>
+        <dd>
+          下边距 
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="hashCode" class="property inherited">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFModel/hashCode.html">hashCode</a></span>
+          <span class="signature">&#8594; int</span>         
+        </dt>
+        <dd class="inherited">
+          The hash code for this object. <a href="../flutter_baidu_mapapi_base/BMFModel/hashCode.html">[...]</a>
+                  <div class="features">read-only, inherited</div>
+</dd>
+        <dt id="left" class="property">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/left.html">left</a></span>
+          <span class="signature">&#8596; double</span>         
+        </dt>
+        <dd>
+          左边距 
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="right" class="property">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/right.html">right</a></span>
+          <span class="signature">&#8596; double</span>         
+        </dt>
+        <dd>
+          右边距 
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="runtimeType" class="property inherited">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFModel/runtimeType.html">runtimeType</a></span>
+          <span class="signature">&#8594; Type</span>         
+        </dt>
+        <dd class="inherited">
+          A representation of the runtime type of the object. 
+                  <div class="features">read-only, inherited</div>
+</dd>
+        <dt id="top" class="property">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/top.html">top</a></span>
+          <span class="signature">&#8596; double</span>         
+        </dt>
+        <dd>
+          上边距 
+                  <div class="features">read / write</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="fromMap" class="callable">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/fromMap.html">fromMap</a></span><span class="signature">(<wbr><span class="parameter" id="fromMap-param-map"><span class="type-annotation">Map</span> <span class="parameter-name">map</span></span>)
+            <span class="returntype parameter">&#8594; dynamic</span>
+          </span>
+                  </dt>
+        <dd>
+          map -&gt; dynamic 
+                  <div class="features">override</div>
+</dd>
+        <dt id="noSuchMethod" class="callable inherited">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFModel/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation">Invocation</span> <span class="parameter-name">invocation</span></span>)
+            <span class="returntype parameter">&#8594; dynamic</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Invoked when a non-existent method or property is accessed. <a href="../flutter_baidu_mapapi_base/BMFModel/noSuchMethod.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toMap" class="callable">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/toMap.html">toMap</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; Map<span class="signature">&lt;<wbr><span class="type-parameter">String</span>, <span class="type-parameter">Object</span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          model -&gt; map 
+                  <div class="features">override</div>
+</dd>
+        <dt id="toString" class="callable inherited">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFModel/toString.html">toString</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; String</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a string representation of this object. 
+                  <div class="features">inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+          <span class="name"><a href="../flutter_baidu_mapapi_base/BMFModel/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation">Object</span> <span class="parameter-name">other</span></span>)
+            <span class="returntype parameter">&#8594; bool</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          The equality operator. <a href="../flutter_baidu_mapapi_base/BMFModel/operator_equals.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+      </dl>
+    </section>
+
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <ol>
+    
+      <li class="section-title"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets-class.html#constructors">Constructors</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/BMFEdgeInsets.html">BMFEdgeInsets</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/BMFEdgeInsets.fromEdgeInsets.html">fromEdgeInsets</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/BMFEdgeInsets.fromMap.html">fromMap</a></li>
+    
+      <li class="section-title">
+        <a href="../flutter_baidu_mapapi_base/BMFEdgeInsets-class.html#instance-properties">Properties</a>
+      </li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/bottom.html">bottom</a></li>
+      <li class="inherited"><a href="../flutter_baidu_mapapi_base/BMFModel/hashCode.html">hashCode</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/left.html">left</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/right.html">right</a></li>
+      <li class="inherited"><a href="../flutter_baidu_mapapi_base/BMFModel/runtimeType.html">runtimeType</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/top.html">top</a></li>
+    
+      <li class="section-title"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets-class.html#instance-methods">Methods</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/fromMap.html">fromMap</a></li>
+      <li class="inherited"><a href="../flutter_baidu_mapapi_base/BMFModel/noSuchMethod.html">noSuchMethod</a></li>
+      <li><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets/toMap.html">toMap</a></li>
+      <li class="inherited"><a href="../flutter_baidu_mapapi_base/BMFModel/toString.html">toString</a></li>
+    
+      <li class="section-title inherited"><a href="../flutter_baidu_mapapi_base/BMFEdgeInsets-class.html#operators">Operators</a></li>
+      <li class="inherited"><a href="../flutter_baidu_mapapi_base/BMFModel/operator_equals.html">operator ==</a></li>
+    
+    
+    
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    flutter_baidu_mapapi_base
+      2.0.0
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../static-assets/typeahead.bundle.min.js"></script>
+<script src="../static-assets/highlight.pack.js"></script>
+<script src="../static-assets/URI.js"></script>
+<script src="../static-assets/script.js"></script>
+
+
+</body>
+
+</html>

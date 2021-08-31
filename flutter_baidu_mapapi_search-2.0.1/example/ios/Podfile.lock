@@ -1,0 +1,41 @@
+PODS:
+  - BaiduMapKit/Base (6.0.0)
+  - BaiduMapKit/Search (6.0.0):
+    - BaiduMapKit/Base
+  - BaiduMapKit/Utils (6.0.0):
+    - BaiduMapKit/Base
+  - Flutter (1.0.0)
+  - flutter_baidu_mapapi_base (2.0.0):
+    - BaiduMapKit/Utils (= 6.0.0)
+    - Flutter
+  - flutter_baidu_mapapi_search (0.0.1):
+    - BaiduMapKit/Search (= 6.0.0)
+    - Flutter
+    - flutter_baidu_mapapi_base
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_baidu_mapapi_base (from `.symlinks/plugins/flutter_baidu_mapapi_base/ios`)
+  - flutter_baidu_mapapi_search (from `.symlinks/plugins/flutter_baidu_mapapi_search/ios`)
+
+SPEC REPOS:
+  trunk:
+    - BaiduMapKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_baidu_mapapi_base:
+    :path: ".symlinks/plugins/flutter_baidu_mapapi_base/ios"
+  flutter_baidu_mapapi_search:
+    :path: ".symlinks/plugins/flutter_baidu_mapapi_search/ios"
+
+SPEC CHECKSUMS:
+  BaiduMapKit: e21e4c72533f263aa3c73e3b0ea13b37e7038f62
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_baidu_mapapi_base: 728beea6b1499cb1bd571cfbf1927ad0b8008fe7
+  flutter_baidu_mapapi_search: 0925c2a9a0ab047efaed83763fc9485746f63f94
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.10.0.beta.1

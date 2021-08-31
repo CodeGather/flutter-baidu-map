@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-59313252/android.flutter_baidu_mapapi_base.iml" filepath="$PROJECT_DIR$/.idea/modules/-59313252/android.flutter_baidu_mapapi_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1616777019/android.flutter_baidu_mapapi_map.iml" filepath="$PROJECT_DIR$/.idea/modules/-1616777019/android.flutter_baidu_mapapi_map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1126596545/android.flutter_plugin_android_lifecycle.iml" filepath="$PROJECT_DIR$/.idea/modules/1126596545/android.flutter_plugin_android_lifecycle.iml" />
+    </modules>
+  </component>
+</project>

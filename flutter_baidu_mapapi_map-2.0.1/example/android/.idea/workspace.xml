@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a887f2a2-09cc-4c00-9d1a-81ce0af22932" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../android/app/src/main/kotlin/com/sean/amap/track/zongjicha/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../assets/images/zanwuguanxin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../assets/images/zanwulianxiren.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ios/Podfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ios/Classes/Models/BMKSportNode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ios/Classes/Models/BMKSportNode.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android/app/src/main/java/com/sean/amap/track/zongjicha/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../android/app/src/main/java/com/sean/amap/track/zongjicha/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assets/images/zanwulianxiren@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ios/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ios/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ios/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/api/API.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/api/API.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/common/common.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/common/common.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/config/config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/config/config.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/model/app_data_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/model/app_data_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/model/app_data_model.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/model/app_data_model.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/model/response_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/model/response_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/model/track_point_model.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/model/track_point_model.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/home/add_firends_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/home/add_firends_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/home/home_card_list_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/home/home_card_list_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/home/home_free_card_list_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/home/home_free_card_list_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/home/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/home/home_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/home/message_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/home/message_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/home/seek_help_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/home/seek_help_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/home/show_firends_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/home/show_firends_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/login/login_mobile_auto_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/login/login_mobile_auto_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/login/login_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/login/login_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/login/login_page_code.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/login/login_page_code.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/map/map_free_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/map/map_free_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/map/map_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/map/map_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/map/map_search_address.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/map/map_search_address.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/map/map_show_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/map/map_show_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/other/buy_vip_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/other/buy_vip_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/other/buy_vip_qrcode_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/other/buy_vip_qrcode_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/personal/Course_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/personal/Course_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/personal/Location_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/personal/Location_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/personal/Matter_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/personal/Matter_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/personal/Setting_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/personal/Setting_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/personal/Warn_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/personal/Warn_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/pages/personal/personal_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/pages/personal/personal_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/provide/application_provide.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/provide/application_provide.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/service/server_method.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/service/server_method.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/widgets/Custom.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/widgets/Custom.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../lib/widgets/CustoomDialogWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lib/widgets/CustoomDialogWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_aliyun_push-0.0.3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_aliyun_push-0.0.3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_aliyun_push-0.0.3/ios/Classes/FlutterAliyunPushPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_aliyun_push-0.0.3/ios/Classes/FlutterAliyunPushPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_aliyun_push-0.0.3/ios/flutter_aliyun_push.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_aliyun_push-0.0.3/ios/flutter_aliyun_push.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ios/Classes/Map/BMFMapViewHandles.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../ios/Classes/Map/BMFMapViewHandles.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ios/Classes/Map/BMFMapViewHandles.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../ios/Classes/Map/BMFMapViewHandles.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ios/Classes/Map/BMFOverlayHandles.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../ios/Classes/Map/BMFOverlayHandles.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ios/Classes/Map/BMFOverlayHandles.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../ios/Classes/Map/BMFOverlayHandles.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ios/Classes/MethodConst/BMFMapMethodConst.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../ios/Classes/MethodConst/BMFMapMethodConst.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ios/Classes/MethodConst/BMFMapMethodConst.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../ios/Classes/MethodConst/BMFMapMethodConst.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/android/src/main/java/com/baidu/flutter/trace/manager/FenceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/android/src/main/java/com/baidu/flutter/trace/manager/FenceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/lib/src/model/fence/create_fence_result.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/lib/src/model/fence/create_fence_result.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/lib/src/model/fence/delete_fence_option.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/lib/src/model/fence/delete_fence_option.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/lib/src/model/fence/delete_fence_result.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/lib/src/model/fence/delete_fence_result.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/lib/src/model/fence/query_fence_list_option.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_baidu_yingyan_trace-1.0.0/lib/src/model/fence/query_fence_list_option.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_bmflocation-1.0.4/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_bmflocation-1.0.4/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_bmflocation-1.0.4/ios/Classes/BdmapLocationFlutterPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_bmflocation-1.0.4/ios/Classes/BdmapLocationFlutterPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_bmflocation-1.0.4/lib/flutter_baidu_location_ios_option.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_bmflocation-1.0.4/lib/flutter_baidu_location_ios_option.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_bmflocation-1.0.4/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_bmflocation-1.0.4/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_bmflocation-1.0.4/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter_bmflocation-1.0.4/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../test/widget_test.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1vfbW3KuKEIppCXcr9PZGHgMhym" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/softSdk/Android/SDK" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="android.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a887f2a2-09cc-4c00-9d1a-81ce0af22932" name="Default Changelist" comment="" />
+      <created>1626956118827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626956118827</updated>
+    </task>
+    <servers />
+  </component>
+</project>

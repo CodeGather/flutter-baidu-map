@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./../../../flutter_baidu_mapapi_base-2.0.1/android/libs/BaiduLBS_Android.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../flutter_baidu_mapapi_base-2.0.1/android/libs/BaiduLBS_Android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

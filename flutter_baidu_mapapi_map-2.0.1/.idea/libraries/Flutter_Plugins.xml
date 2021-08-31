@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../flutter_baidu_mapapi_base-2.0.1" />
+      <root url="file://$USER_HOME$/softSdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_plugin_android_lifecycle-2.0.2" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

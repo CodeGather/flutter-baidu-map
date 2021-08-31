@@ -1,0 +1,19 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml:1:1-3:12
+	package
+		ADDED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml:2:3-34
+		INJECTED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml
+INJECTED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml
+		ADDED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_base-2.0.1/android/src/main/AndroidManifest.xml

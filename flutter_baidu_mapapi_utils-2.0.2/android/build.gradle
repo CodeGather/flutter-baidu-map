@@ -1,0 +1,55 @@
+group 'com.baidu.mapapi.utils'
+version '1.0'
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+
+apply plugin: 'com.android.library'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+    }
+}
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    sourceSets {
+        main{
+            jniLibs.srcDirs 'jniLibs'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    implementation fileTree(includes: ['*.jar'], dir: 'libs')
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation project(':flutter_baidu_mapapi_base')
+}

@@ -1,0 +1,57 @@
+PODS:
+  - BaiduMapKit/Base (6.2.0)
+  - BaiduMapKit/Map (6.2.0):
+    - BaiduMapKit/Base
+  - BaiduMapKit/Utils (6.2.0):
+    - BaiduMapKit/Base
+  - BaiduTraceKit-Lite (3.1.3)
+  - Flutter (1.0.0)
+  - flutter_baidu_mapapi_base (2.0.0):
+    - BaiduMapKit/Utils (= 6.2.0)
+    - Flutter
+  - flutter_baidu_mapapi_map (2.0.0):
+    - BaiduMapKit/Map (= 6.2.0)
+    - Flutter
+    - flutter_baidu_mapapi_base
+  - flutter_baidu_yingyan_trace (1.0.0):
+    - BaiduTraceKit-Lite (= 3.1.3)
+    - Flutter
+  - "permission_handler (5.0.1+1)":
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_baidu_mapapi_base (from `.symlinks/plugins/flutter_baidu_mapapi_base/ios`)
+  - flutter_baidu_mapapi_map (from `.symlinks/plugins/flutter_baidu_mapapi_map/ios`)
+  - flutter_baidu_yingyan_trace (from `.symlinks/plugins/flutter_baidu_yingyan_trace/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+
+SPEC REPOS:
+  trunk:
+    - BaiduMapKit
+    - BaiduTraceKit-Lite
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_baidu_mapapi_base:
+    :path: ".symlinks/plugins/flutter_baidu_mapapi_base/ios"
+  flutter_baidu_mapapi_map:
+    :path: ".symlinks/plugins/flutter_baidu_mapapi_map/ios"
+  flutter_baidu_yingyan_trace:
+    :path: ".symlinks/plugins/flutter_baidu_yingyan_trace/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+
+SPEC CHECKSUMS:
+  BaiduMapKit: 907c6d9b74f66c3ff4741fc4b568ae0b339917f8
+  BaiduTraceKit-Lite: 2368b88f9fcd9b76eae3493de4089901ea30fd9e
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_baidu_mapapi_base: 90fddba11ec4435406a7211d6ee905b4311c31db
+  flutter_baidu_mapapi_map: 771bf00671832b1fcddb17733518cd631529df16
+  flutter_baidu_yingyan_trace: 0147f20875762117733c1a4644201c916d6009dd
+  permission_handler: eac8e15b4a1a3fba55b761d19f3f4e6b005d15b6
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.10.0

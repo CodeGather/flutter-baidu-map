@@ -1,0 +1,40 @@
+group 'com.baidu.flutter_bmfsearch'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 16
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies {
+    implementation fileTree(includes: ['*.jar'], dir: 'libs')
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation rootProject.findProject(":flutter_baidu_mapapi_base")
+}
