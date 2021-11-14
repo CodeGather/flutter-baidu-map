@@ -1,14 +1,20 @@
 package com.baidu.flutter.trace.manager;
 
+import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Build;
+import android.os.PowerManager;
+import android.provider.Settings;
 
 import androidx.core.app.NotificationCompat;
 
@@ -29,6 +35,7 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 
 import static android.content.Context.NOTIFICATION_SERVICE;
+import static android.content.Context.POWER_SERVICE;
 import static androidx.core.content.ContextCompat.getSystemService;
 
 /**
@@ -71,6 +78,10 @@ public class TraceManager extends BaseManager {
 
             case Constant.TraceMethodId.SET_CACHE_SIZE:
                 setCacheSize(call, result);
+                break;
+
+            case Constant.TraceMethodId.IGNORE_BATTERY:
+                ignoreBattery();
                 break;
 
             default:
@@ -316,6 +327,34 @@ public class TraceManager extends BaseManager {
         @Override
         public void onInitBOSCallback(int i, String s) {
 
+        }
+    }
+
+    /**
+     * 忽略电池优化
+     */
+    public void ignoreBattery() {
+        PowerManager powerManager = (PowerManager) mContext.getSystemService(POWER_SERVICE);
+        boolean hasIgnored = false;
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
+            hasIgnored = powerManager.isIgnoringBatteryOptimizations(mContext.getPackageName());
+            // 判断当前APP是否有加入电池优化的白名单，如果没有，弹出加入电池优化的白名单的设置对话框。
+            if(!hasIgnored) {
+                Intent intent = new Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                intent.setData(Uri.parse("package:"+mContext.getPackageName()));
+                mContext.startActivity(intent);
+            } else {
+                //已加入电池优化的白名单 则进入系统电池优化页面
+                Intent powerUsageIntent = new Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS);
+                powerUsageIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                PackageManager packageManager = mContext.getPackageManager();
+                ResolveInfo resolveInfo = packageManager.resolveActivity(powerUsageIntent, 0);
+                //判断系统是否有这个页面
+                if (resolveInfo != null) {
+                    mContext.startActivity(powerUsageIntent);
+                }
+            }
         }
     }
 

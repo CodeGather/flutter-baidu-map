@@ -130,6 +130,11 @@ class TraceController {
     return await _traceManager.stopGather(traceCallback: traceCallback);
   }
 
+  /// 打开电池优化
+  Future<bool> openBattery() async {
+    return await _traceManager.openBattery();
+  }
+
   /// 设置采集周期和打包上传的周期
   /// 采集周期和上传周期的值域均为[2,300]，且上传周期必须是采集周期的整数倍
   /// gatherInterval 采集周期，单位：秒

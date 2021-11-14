@@ -112,8 +112,11 @@ public class Constants {
             /**
              * 删除overlay
              */
-            public static final String sMapRemoveOverlayMethod =
-                    "flutter_bmfmap/overlay/removeOverlay";
+            public static final String sMapRemoveOverlayMethod = "flutter_bmfmap/overlay/removeOverlay";
+            /**
+             * 清空overlay
+             */
+            public static final String sMapClearOverlayMethod = "flutter_bmfmap/overlay/clearOverlay";
         }
 
         /**

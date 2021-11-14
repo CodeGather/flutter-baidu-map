@@ -1,4 +1,0 @@
-#Tue Aug 17 15:41:19 CST 2021
-base.0=/Users/yau/work/2.jokui/flutter/zongjicha/plugins/flutter_baidu_mapapi_map-2.0.1/example/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

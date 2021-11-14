@@ -33,6 +33,7 @@ import static com.baidu.bmfmap.utils.Constants.MethodProtocol.MarkerProtocol.sMa
 
 public class PolylineHandler extends OverlayHandler {
     private static final String TAG = "PolylineHandler";
+    private static MarkerHandler markerHandler;
 
     private final HashMap<String, List<BitmapDescriptor>> mBitmapMap = new HashMap<>();
 
@@ -231,7 +232,10 @@ public class PolylineHandler extends OverlayHandler {
         if (null != isMove && isMove) {
             Map<String, Object> marker = (Map<String, Object>) polylineOptionsMap.get("marker");
             marker.put("coordinates", polylineOptionsMap.get("coordinates"));
-            boolean status = new MarkerHandler(mMapController).addMarker(marker);
+            if (markerHandler == null) {
+                markerHandler = new MarkerHandler(mMapController);
+            }
+            boolean status = markerHandler.addMarker(marker, true);
             Log.d(TAG, "setOptions: " + status);
         }
 

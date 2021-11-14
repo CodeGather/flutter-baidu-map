@@ -252,6 +252,10 @@ class TraceMethods {
   static const String kStopGather =
       YingYanConstants.kYingYanMethodChannelName + '/trace/stopGather';
 
+  /// 打开电池优化设置
+  static const String kOpenBattery =
+      YingYanConstants.kYingYanMethodChannelName + '/trace/ignoreBattery';
+
   static const String kStopGatherCallBack =
       YingYanConstants.kYingYanMethodChannelName + '/trace/stopGatherCallBack';
 

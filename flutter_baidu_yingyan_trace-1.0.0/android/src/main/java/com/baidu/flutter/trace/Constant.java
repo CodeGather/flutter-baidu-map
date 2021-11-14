@@ -67,6 +67,8 @@ public class Constant {
                 MethodIdPrefix.TRACE_METHOD_ID_PREFIX + "setCacheSize";
         public static final String SET_CACHE_SIZE_CALLBACK =
                 MethodIdPrefix.TRACE_METHOD_ID_PREFIX + "setCacheSizeCallBack";
+        public static final String IGNORE_BATTERY =
+                MethodIdPrefix.TRACE_METHOD_ID_PREFIX + "ignoreBattery";
     }
 
     public static class EntityMethodId {

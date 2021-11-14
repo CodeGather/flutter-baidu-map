@@ -798,6 +798,17 @@ class BaiduYingYanMethodChannel
   }
 
   @override
+  Future<bool> openBattery() async {
+    bool result = false;
+    try {
+      result = (await _channel.invokeMethod(TraceMethods.kOpenBattery)) as bool;
+    } on PlatformException catch (e) {
+      print(e.toString());
+    }
+    return result;
+  }
+
+  @override
   Future<bool> stopTraceService(
       {required Trace trace, TraceCallback ?traceCallback}) async {
     bool result = false;

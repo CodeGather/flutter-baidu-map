@@ -63,7 +63,7 @@ public class MarkerHandler extends OverlayHandler {
         boolean ret = false;
         switch (methodId) {
             case Constants.MethodProtocol.MarkerProtocol.sMapAddMarkerMethod:
-                ret = addMarker((Map<String, Object>) call.arguments);
+                ret = addMarker((Map<String, Object>) call.arguments, false);
                 break;
             case Constants.MethodProtocol.MarkerProtocol.sMapAddMarkersMethod:
                 ret = addMarkers(call);
@@ -114,15 +114,15 @@ public class MarkerHandler extends OverlayHandler {
         }
     }
 
-    public boolean addMarker(Map<String, Object> argument) {
+    public boolean addMarker(Map<String, Object> argument, boolean isMove) {
         if (null == argument) {
             return false;
         }
 
-        return addMarkerImp(argument);
+        return addMarkerImp(argument, isMove);
     }
 
-    private boolean addMarkerImp(Map<String, Object> argument) {
+    private boolean addMarkerImp(Map<String, Object> argument, boolean isMove) {
         if (Env.DEBUG) {
             Log.d(TAG, "addMarkerImp enter");
         }
@@ -153,6 +153,12 @@ public class MarkerHandler extends OverlayHandler {
         }
 
         if (mMarkerMap.containsKey(id)) {
+            if (isMove) {
+                mIndex = 0;
+                argument.put("value", argument.get("position"));
+                argument.put("member", "position");
+                updateMarkerMember(argument);
+            }
             return false;
         }
 
@@ -179,7 +185,6 @@ public class MarkerHandler extends OverlayHandler {
         overlay.setExtraInfo(bundle);
 
         mMarkerMap.put(id, overlay);
-
         moveLooper(id, argument);
         return true;
     }
@@ -542,7 +547,7 @@ public class MarkerHandler extends OverlayHandler {
         Iterator itr = arguments.iterator();
         while (itr.hasNext()) {
             Map<String, Object> argument = (Map<String, Object>) itr.next();
-            addMarkerImp(argument);
+            addMarkerImp(argument, false);
 
         }
         return true;
@@ -613,7 +618,7 @@ public class MarkerHandler extends OverlayHandler {
      * @param argument
      * @return
      */
-    private boolean updateMarkerMember(Map<String, Object> argument) {
+    public boolean updateMarkerMember(Map<String, Object> argument) {
         if (mMarkerMap == null) {
             return false;
         }

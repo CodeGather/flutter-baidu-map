@@ -82,6 +82,13 @@ class TraceManager extends BaseManager implements TraceInterface {
         .stopTraceService(trace: trace, traceCallback: traceCallback);
   }
 
+  @override
+  Future<bool> openBattery() async {
+    return await this
+        .baiduYingYanMethodChannel
+        .openBattery();
+  }
+
   Future<bool> release() async {
     return await this.baiduYingYanMethodChannel.release();
   }

@@ -1,5 +1,14 @@
 package com.baidu.mapapi.base;
 
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.net.Uri;
+import android.os.PowerManager;
+import android.provider.Settings;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,9 +23,14 @@ import com.baidu.mapapi.CoordType;
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.VersionInfo;
 
+import static android.content.Context.POWER_SERVICE;
+import static android.provider.Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS;
+import static android.provider.Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS;
+
 /** FlutterBmfbasePlugin */
 public class FlutterBmfbasePlugin implements FlutterPlugin, MethodCallHandler {
 
+  private static Context mContext;
   private static final String sMethodSetApiKey = "flutter_bmfbase/sdk/setApiKey";
   private static final String sMethodGetNativeSDKVersion = "flutter_bmfbase/sdk/getNativeBaseVersion";
 
@@ -24,6 +38,8 @@ public class FlutterBmfbasePlugin implements FlutterPlugin, MethodCallHandler {
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
     final MethodChannel channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "flutter_bmfbase");
     channel.setMethodCallHandler(this);
+
+    mContext = flutterPluginBinding.getApplicationContext();
   }
 
   // This static function is optional and equivalent to onAttachedToEngine. It supports the old
