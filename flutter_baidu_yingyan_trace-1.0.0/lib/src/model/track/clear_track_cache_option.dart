@@ -9,40 +9,41 @@ class ClearTrackCacheOption extends BaseOption {
   /// 若同时设置，则以cacheTrackInfos为准；
   /// 若两者存在某一为null，某一不为null的情况，则以不为null的为准。
   /// (android)
-  List<String> ?entityNames;
+  List<String>? entityNames;
 
   ///  需要清空的缓存数据的筛选条件数组，选填。
   ///  数组中每个option用于指定一个筛选条件，类型为TrackCacheOption。
   /// 若设置，则清空符合条件的缓存数据；
   /// 若不设置或设置为null或为空数组，则清空所有的缓存数据。
-  List<TrackCacheOption> ?trackCacheOptions;
+  List<TrackCacheOption>? trackCacheOptions;
 
   /// 有参构造
-  ClearTrackCacheOption(
-      {required int tag,
-      required int serviceId,
-      required this.entityNames,
-      this.trackCacheOptions})
-      : super(tag: tag, serviceId: serviceId);
+  ClearTrackCacheOption({
+    required int tag,
+    required int serviceId,
+    required this.entityNames,
+    this.trackCacheOptions,
+  }) : super(tag: tag, serviceId: serviceId);
 
   /// map => ClearTrackCacheOption
   ClearTrackCacheOption.fromMap(Map map)
-      : assert(map != null,
-            'Construct a ClearTrackCacheOption，The parameter map cannot be null !'),
+      : assert(map != null, // ignore: unnecessary_null_comparison
+  'Construct a ClearTrackCacheOption，The parameter map cannot be null !'),
         super.fromMap(map) {
     if (map['trackCacheOptions'] != null) {
-      trackCacheOptions = [] as List<TrackCacheOption>;
+      trackCacheOptions = [];
       map['trackCacheOptions'].forEach((e) {
         trackCacheOptions!.add(TrackCacheOption.fromMap(e));
       });
     }
     if (map['entityNames'] != null) {
-      entityNames = [] as List<String>;
+      entityNames = [];
       map['entityNames'].forEach((e) {
         entityNames!.add(e as String);
       });
     }
   }
+
   @override
   Map toMap() {
     Map map = super.toMap();
@@ -58,32 +59,33 @@ class ClearTrackCacheOption extends BaseOption {
 /// 若不指定，则删除指定entity的所有缓存数据。
 class TrackCacheOption {
   /// 需要删除哪个entity的缓存数据，必选。
-  String ?entityName;
+  late String entityName;
 
   /// 所属entity对应的缓存数据量。(android)
-  int ?total;
+  int? total;
 
   /// 需要删除的缓存的开始时间，可选。
-  int ?startTime;
+  int? startTime;
 
   /// 需要删除的缓存的结束时间，可选。
-  int ?endTime;
+  int? endTime;
 
   /// 缓存轨迹的距离，单位：米 (android)
-  double ?cacheDistance;
+  double? cacheDistance;
 
   /// 有参构造
-  TrackCacheOption(
-      {required this.entityName,
-      required this.total,
-      this.startTime,
-      this.endTime,
-      this.cacheDistance});
+  TrackCacheOption({
+    required this.entityName,
+    required this.total,
+    this.startTime,
+    this.endTime,
+    this.cacheDistance,
+  });
 
   /// map => TrackCacheOption
   TrackCacheOption.fromMap(Map map)
-      : assert(map != null,
-            'Construct a TrackCacheOption，The parameter map cannot be null !') {
+      : assert(map != null, // ignore: unnecessary_null_comparison
+  'Construct a TrackCacheOption，The parameter map cannot be null !') {
     entityName = map['entityName'];
     total = map['total'];
     startTime = map['startTime'];
